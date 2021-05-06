@@ -9,13 +9,13 @@
   flex: 1;
  }
  .Column1 {
-  background-color: #ccc;
+  background-color: rgb(188, 154, 219);
  }
  .Column2 {
-  background-color: #ddd;
+  background-color: rgb(205, 171, 221);
  }
  .Column3 {
-  background-color: #eee;
+  background-color: rgb(208, 161, 235);
  }
  .Column4 {
    background-color: aquamarine;
