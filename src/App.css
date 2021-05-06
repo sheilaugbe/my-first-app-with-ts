@@ -5,7 +5,7 @@
   border: 1px solid #ccc;
   padding: 10px;
  }
- .Column1, .Column2, .Column3 {
+ .Column1, .Column2, .Column3, .Column4 {
   flex: 1;
  }
  .Column1 {
@@ -17,6 +17,9 @@
  .Column3 {
   background-color: #eee;
  }
+ .Column4 {
+   background-color: aquamarine;
+ }  
  @media (max-width: 768px){
   .Container{
   flex-direction: column;

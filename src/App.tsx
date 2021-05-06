@@ -1,20 +1,22 @@
 import React from 'react';
 import './App.css';
-import HelloWorld4 from './components/HelloWorld4';
-import HelloWorld7 from './components/HelloWorld7/HelloWorld7';
-import HelloWorld8 from './components/HelloWorld8';
+import Email from './components/Email';
+import Url from './components/Url';
+import Sms from './components/Sms';
+
 const App: React.FC = () => {
   return (
     <div className="Container">
       <div className="Column1">
-        <HelloWorld8 />
+        <Email />
       </div>
       <div className="Column2">
-        <HelloWorld4 />
+        <Url />
       </div>
       <div className="Column3">
-        <HelloWorld7 />
+        <Sms />
       </div>
+
     </div>
   );
 }
